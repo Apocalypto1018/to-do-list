@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Orelega One", cursive;
+  background: #f5f7b2;
+  color: #1cc5dc;
+}
+.container {
+  border: 1px #890596 solid;
+  width: 50%;
+  box-shadow: 0 10px 40px -10px;
+}
+
+form button,
+.buttons {
+  cursor: pointer;
+}
+.buttons {
+  float: right;
+}
